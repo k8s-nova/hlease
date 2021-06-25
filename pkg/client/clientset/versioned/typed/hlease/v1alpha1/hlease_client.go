@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "harmonycloud.cn/common/hlease/pkg/apis/hlease/v1alpha1"
-	"harmonycloud.cn/common/hlease/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/k8s-nova/hlease/pkg/apis/hlease/v1alpha1"
+	"github.com/k8s-nova/hlease/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

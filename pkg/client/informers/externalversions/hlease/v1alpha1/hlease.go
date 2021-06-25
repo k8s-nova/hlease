@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	time "time"
 
-	hleasev1alpha1 "harmonycloud.cn/common/hlease/pkg/apis/hlease/v1alpha1"
-	versioned "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned"
-	internalinterfaces "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "harmonycloud.cn/common/hlease/pkg/client/listers/hlease/v1alpha1"
+	hleasev1alpha1 "github.com/k8s-nova/hlease/pkg/apis/hlease/v1alpha1"
+	versioned "github.com/k8s-nova/hlease/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/k8s-nova/hlease/pkg/client/listers/hlease/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

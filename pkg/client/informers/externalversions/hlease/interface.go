@@ -19,8 +19,8 @@ limitations under the License.
 package hlease
 
 import (
-	v1alpha1 "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/hlease/v1alpha1"
-	internalinterfaces "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/hlease/v1alpha1"
+	internalinterfaces "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

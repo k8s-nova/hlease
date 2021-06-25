@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	internalinterfaces "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

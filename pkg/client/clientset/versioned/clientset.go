@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	isolatev1alpha1 "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
+	isolatev1alpha1 "github.com/k8s-nova/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

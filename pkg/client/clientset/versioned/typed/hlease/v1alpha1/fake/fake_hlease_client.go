@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1alpha1 "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
+	v1alpha1 "github.com/k8s-nova/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

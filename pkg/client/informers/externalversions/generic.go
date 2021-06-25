@@ -21,7 +21,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "harmonycloud.cn/common/hlease/pkg/apis/hlease/v1alpha1"
+	v1alpha1 "github.com/k8s-nova/hlease/pkg/apis/hlease/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

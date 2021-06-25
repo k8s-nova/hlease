@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned"
-	hlease "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/hlease"
-	internalinterfaces "harmonycloud.cn/common/hlease/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/k8s-nova/hlease/pkg/client/clientset/versioned"
+	hlease "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/hlease"
+	internalinterfaces "github.com/k8s-nova/hlease/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

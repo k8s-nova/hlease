@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned"
-	isolatev1alpha1 "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
-	fakeisolatev1alpha1 "harmonycloud.cn/common/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1/fake"
+	clientset "github.com/k8s-nova/hlease/pkg/client/clientset/versioned"
+	isolatev1alpha1 "github.com/k8s-nova/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1"
+	fakeisolatev1alpha1 "github.com/k8s-nova/hlease/pkg/client/clientset/versioned/typed/hlease/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

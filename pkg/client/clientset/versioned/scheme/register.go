@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	isolatev1alpha1 "harmonycloud.cn/common/hlease/pkg/apis/hlease/v1alpha1"
+	isolatev1alpha1 "github.com/k8s-nova/hlease/pkg/apis/hlease/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
